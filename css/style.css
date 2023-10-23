@@ -117,7 +117,9 @@ HEADER
 ************************************
 ***********************************/
 .header {
-  background: url("../img/gedung-kpu.jpg") no-repeat fixed;
+  background-image: url('/img/gedung-kpu.jpg');
+  background-repeat: no-repeat;
+  
   background-size: cover;
   min-height: 650px;
   position: relative;
